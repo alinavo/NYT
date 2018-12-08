@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NY TIMES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../NYT/css/css.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Javascript -->
+    <script src="/16-NYTSearch/Instructions/nytsearch.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color: navy">
+            <p> <img src="../NYT/images/np.png" alt="NYT" width="70" height="70"> New York Times Search</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="card">
+                        <div class="card-header" style="background-color: navy">
+                            <img src="../NYT/images/np.png" alt="NYT" width="20" height="20"> Search Parameters
+                        </div>
+                        <div class="card-body">
+
+                            <!-- Search Term -->
+                            <div class="form-group">
+
+                                <label for="exampleInputEmail1">Search Term</label>
+                                <div></div>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    >
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                            <!-- Number Records to Recieve -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Number Records to Recieve</label>
+                                <select class="custom-select" id="inputGroupSelect03">
+                                    <option selected>Choose...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+
+                            <!-- Start Year -->
+                            <div class="form-group">
+
+                                    <label for="exampleInputEmail1">Start Year (Optional):</label>
+                                    <div></div>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                        >
+                                    <small id="emailHelp" class="form-text text-muted"></small>
+                                </div>
+                                
+
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">End Year (Optional):</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" >
+                            </div>
+                            <button type="submit" class="btn"> <img src="../NYT/images/search-01.png" alt="NYT" width="20"
+                                    height="20"> Search</button> <button type="submit" class="btn"><img src="../NYT/images/trash-01.png"
+                                    alt="NYT" width="20" height="20">Clear
+                                Results</button>
+
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="card">
+                        <div class="card-header" style="background-color: navy">
+                                <img src="../NYT/images/np.png" alt="NYT" width="20" height="20"> Top Articles
+                        </div>
+                        <div class="card-body"></div>
+
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
